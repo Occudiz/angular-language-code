@@ -226,17 +226,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        switch (output_type) {
 	            case "local":
-	                return ngLangcodeFactory.name_2_local[input];
+	                return ngLangcodeFactory.name_2_local[_lang_name_];
 	            case "alpha1":
-	                return ngLangcodeFactory.name_2_alpha1[input];
+	                return ngLangcodeFactory.name_2_alpha1[_lang_name_];
 	            case "alpha2":
-	                return ngLangcodeFactory.name_2_alpha2[input];
+	                return ngLangcodeFactory.name_2_alpha2[_lang_name_];
 	            case "alpha2T":
-	                return ngLangcodeFactory.name_2_alpha2t[input];
+	                return ngLangcodeFactory.name_2_alpha2t[_lang_name_];
 	            case "alpha2B":
-	                return ngLangcodeFactory.name_2_alpha2b[input];
+	                return ngLangcodeFactory.name_2_alpha2b[_lang_name_];
 	            case "alpha3":
-	                return ngLangcodeFactory.name_2_alpha3[input];
+	                return ngLangcodeFactory.name_2_alpha3[_lang_name_];
 	            default:
 	                return _lang_name_;
 	        }
